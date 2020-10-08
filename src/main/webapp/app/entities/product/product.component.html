@@ -82,7 +82,7 @@
     <div *ngIf="products">
         <div class="mb-2 d-flex justify-content-end align-items-center">
             <span class="mr-2 col-2">Filter by name</span>
-            <input type="search" class="form-control" [(ngModel)]="filter">
+            <input type="search" class="form-control" [(ngModel)]="filter" />
             <span class="mx-2 col-1">Sort by</span>
             <div class="btn-group" jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
                 <button type="button" class="btn btn-light" jhiSortBy="name">
@@ -161,6 +161,8 @@
             </a>
         </div>
     </div>
+
+
 
     <div *ngIf="products && products.length > 0">
         <div class="row justify-content-center">
