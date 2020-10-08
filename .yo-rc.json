@@ -30,14 +30,21 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "creationTimestamp": 1602067458972,
-    "testFrameworks": ["protractor"],
+    "testFrameworks": [
+      "protractor"
+    ],
     "jhiPrefix": "jhi",
     "entitySuffix": "",
     "dtoSuffix": "DTO",
     "otherModules": [],
     "enableTranslation": true,
     "nativeLanguage": "en",
-    "languages": ["en", "hi"],
+    "languages": [
+      "en",
+      "hi",
+      "ta",
+      "te"
+    ],
     "blueprints": []
   }
 }
