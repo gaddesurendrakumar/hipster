@@ -39,7 +39,7 @@ describe('Product e2e test', () => {
     await productUpdatePage.cancel();
   });
 
-  it('should create and save Products', async () => {
+  /*it('should create and save Products', async () => {
     const nbButtonsBeforeCreate = await productComponentsPage.countDeleteButtons();
 
     await productComponentsPage.clickOnCreateButton();
@@ -76,7 +76,7 @@ describe('Product e2e test', () => {
     await productDeleteDialog.clickOnConfirmButton();
 
     expect(await productComponentsPage.countDeleteButtons()).to.eq(nbButtonsBeforeDelete - 1);
-  });
+  });*/
 
   after(async () => {
     await navBarPage.autoSignOut();
