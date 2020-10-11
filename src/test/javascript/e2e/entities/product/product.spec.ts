@@ -39,7 +39,9 @@ describe('Product e2e test', () => {
     await productUpdatePage.cancel();
   });
 
-  /*it('should create and save Products', async () => {
+  /* Removing this test for failures needs to uncomment after fix
+  
+  it('should create and save Products', async () => {
     const nbButtonsBeforeCreate = await productComponentsPage.countDeleteButtons();
 
     await productComponentsPage.clickOnCreateButton();
