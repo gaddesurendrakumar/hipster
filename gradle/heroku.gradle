@@ -1,0 +1,6 @@
+apply plugin: "com.heroku.sdk.heroku-gradle"
+
+heroku {
+  appName = "shielded-sierra-77127"
+  buildpacks = ["heroku/jvm"]
+}
